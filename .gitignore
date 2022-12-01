@@ -1,3 +1,5 @@
+client/
+!client/*.html
 # Logs
 logs
 *.log
