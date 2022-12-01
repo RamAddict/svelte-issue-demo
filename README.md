@@ -14,7 +14,7 @@ This works as intended. The issue arises when trying to do the same in the conte
 # Generate custom element
 To generate the custom element, run:
 
-    npm build
+    npm run build
 Then move the contents of the dist folder into the folder where you would like to use your web component. Then import the script and declare the component in the html file.
 
 I've provided an html file in the client folder so this process can be done by running
