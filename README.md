@@ -3,7 +3,7 @@
 This is a template created to demonstrate an issue I encountered. This template is from [Svelte-add](https://github.com/svelte-add/svelte-add) but I slightly modified it and published my own template [here](https://github.com/RamAddict/svelte-webcomponent-template) which I use to generate custom elements.
 
 # Build
-Clone this repository then inside it run:
+Clone this repository, then inside it run:
 
     npm i
     npm run dev
@@ -21,6 +21,6 @@ I've provided an html file in the client folder so this process can be done by r
 
     npm run build-and-copy
 
-Once that is done, open the index (I use Vscode Live server) and you should see the 2 buttons.
+Once that is done, open the index.html (I use Vscode Live server) and you should see the 2 buttons.
 
-Now, as you can see, clicking the change color button doesn't change the color. If you open the console, you still see the console log indicating that the listener function is still being invoked.
+Now, as you can see, clicking the change color button doesn't change the color, however If you open the console, you still see the console log indicating that the listener function is being invoked.
